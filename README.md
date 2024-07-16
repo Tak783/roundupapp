@@ -14,15 +14,17 @@ There are many ways of approaching an iOS project, this is one way. Other ways a
 ## How to use
 * Please add your own Access and Authentication Tokens to the scene delegate
 
-*In the future keychain storage manager will be used, currently using `UserDefaultsAuthenticationStoreManager`. Provisions for the keychain solution were made using `AuthenticationStoreManagable`*
+*Note: keychain storage manager will be used in the future. `UserDefaultsAuthenticationStoreManager` is currently in use. Provisions for a keychain solution have been made using `AuthenticationStoreManagable`*
 
 ## Overview 
 
 ### Architecture 
-* The App is built on top of multiple Platform-Agnostic Swift Packages that live in Layer folders - as discussed in the "# Platform agnostic components" section
-* There 7 layers. At the lowest level are Foundational components (i.e. extensions to Foundation), and at the highest level is the Presentation Layer which contains the iOS app 
-* Highly modular. Each of the bottom 5 layers is platform agnostic so that packages can be used by either UIKit, SwiftUI WatchOS etc. 
-* There is Vertical use of dependencies: each package can import *only* from layers below.
+* The App is built on top of five Platform-Agnostic Layers with Swift Packages
+* Platform-agnostic layer packages can be used by either UIKit, SwiftUI WatchOS etc
+* Each layer can import *only* from the layers below (Vertical Dependency usage)
+* Lowest-level layer has Foundational components (i.e. extensions to Foundation)
+* The highest level hosts the Presentation Layer which contains the iOS app.
+* Please read "#Architectural decisions" and "#Platform agnostic components" sections for reasoning
 
 <img width="1280" alt="Architecture" src="https://github.com/user-attachments/assets/23533bfb-8fa6-462c-a848-76f2613f2ae7">
 
@@ -85,7 +87,7 @@ Application Layer: Where apps Mac, iOS, iPadOS, Watch OS projects and exist and 
 ### Must Have Changes
 * OAuth + Token manager
     * This project APIs are currently sandbox level, I have opted to just use `UserDefaultsAuthenticationStoreManager` to store and manage the tokens. 
-    * In the future keychain storage manager will have be used 
+    * In the future a Keychain Storage Manager will be be used 
     * Accommodations for a future `KeychainAuthenticationStoreManager` were made with the currently existing `AuthenticationStoreManagable`
     * In production token exchange would be used to return new access tokens 
 * Integration tests for view controllers and UIViews
