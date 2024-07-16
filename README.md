@@ -13,6 +13,7 @@ There are many ways of approaching an iOS project, this is one way. Other ways a
 
 ## How to use
 * Please add your own Access and Authentication Tokens to the scene delegate
+* App works for last seven days of transactions only
 
 *Note: keychain storage manager will be used in the future. `UserDefaultsAuthenticationStoreManager` is currently in use. Provisions for a keychain solution have been made using `AuthenticationStoreManagable`*
 
