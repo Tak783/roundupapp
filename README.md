@@ -12,10 +12,30 @@ Round up app for Starling Engine
 There are many ways of approaching an iOS project, this is one way. Other ways are possible depending on the project, team and phase.
 
 ## How to use
-* Please add your own Access and Authentication Tokens to the scene delegate
-* App works for last seven days of transactions only
+* API:*
+Set up a Sandbox User Account using the Starling API
+Auto-simulate your transactions for a Sandbox User Account
 
-*Note: keychain storage manager will be used in the future. `UserDefaultsAuthenticationStoreManager` is currently in use. Provisions for a keychain solution have been made using `AuthenticationStoreManagable`*
+* App:*
+Please read here & see the demo video in the repository
+1. Open App
+2. Tap an account to open "Transactions for Last 7 days"
+3. Tap "Savings Goals"
+4. Create a new "Savings Goal"
+5. Navigate back to "Transactions for Last 7 days"
+6. Tap "Add round up to Savings Goal"
+8. Select the goal to save to
+
+The app will then save you to your saving goal. Brosws back to "Savings Goal" to se
+
+* Warnings:*
+1. After adding to a goal, the transactions feed considers it a transaction (for the next round-up)
+   * A user account management feature will need to be added to the app to make it work
+   * User account management was not built for this app 
+2. The app works for the last seven days of transactions only*
+   
+* Notes:*
+1. A keychain storage manager will be used in the future. `UserDefaultsAuthenticationStoreManager` is currently in use. Provisions for a keychain solution have been made using `AuthenticationStoreManagable`*
 
 ## Overview 
 
