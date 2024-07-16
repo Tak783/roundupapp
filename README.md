@@ -2,26 +2,29 @@
 Round up app for Starling Engine
 
 ## Preface
-1. There are many ways of making an iOS app, this is one way.
-2. Other approaches can work too as different projects at different stages and eng cultures require different approaches.
-3. A highly modular approach using Platform Agnostic components and SOLID principles was taken, focusing on simplicity and flexibility.
-4. Unit and integration written using TDD and BDD using the FIRST principle approach to tests written across the project
-5. Tests were mostly written for Swift Packages and business logic. More would be written with more time for the presentation layer with time.
-6. Core features/use cases were delivered. UI/UX was not focused on as much prioritising core functionality
-7. This README also contains #Architectural decisions reasoning, #How to use and #improvements sections
+1. The project uses a highly modular approach using platform-agnostic components
+2. SOLID principles were applied focusing on simplicity and flexibility during the development
+3. Unit and integration written using TDD and BDD using the FIRST principle approach to tests written across the project
+4. Tests were written mostly for Business logic. Presentation layer tests will be written with more time.
+5. Core functionality delivery was prioritised. UI&UX can be improved.
+6. This README also contains "#Architectural decisions reasoning", "#How to use" and "#improvements" sections
+
+There are many ways of approaching an iOS project, this is one way. Other ways are possible depending on the project, team and phase.
 
 ## How to use
 * Please add your own Access and Authentication Tokens to the scene delegate
 
-*In the future keychain storage manager will be used, currently using `UserDefaultsAuthenticationStoreManager`. Provisions for the keychain solution were made using `AuthenticationStoreManagable`*
+*Note: keychain storage manager will be used in the future. `UserDefaultsAuthenticationStoreManager` is currently in use. Provisions for a keychain solution have been made using `AuthenticationStoreManagable`*
 
 ## Overview 
 
 ### Architecture 
-* The App is built on top of multiple Platform-Agnostic Swift Packages that live in Layer folders - as discussed in the "# Platform agnostic components" section
-* There 7 layers. At the lowest level are Foundational components (i.e. extensions to Foundation), and at the highest level is the Presentation Layer which contains the iOS app 
-* Highly modular. Each of the bottom 5 layers is platform agnostic so that packages can be used by either UIKit, SwiftUI WatchOS etc. 
-* There is Vertical use of dependencies: each package can import *only* from layers below.
+* The App is built on top of five Platform-Agnostic Layers with Swift Packages
+* Platform-agnostic layer packages can be used by either UIKit, SwiftUI WatchOS etc
+* Each layer can import *only* from the layers below (Vertical Dependency usage)
+* Lowest-level layer has Foundational components (i.e. extensions to Foundation)
+* The highest level hosts the Presentation Layer which contains the iOS app.
+* Please read "#Architectural decisions" and "#Platform agnostic components" sections for reasoning
 
 <img width="1280" alt="Architecture" src="https://github.com/user-attachments/assets/23533bfb-8fa6-462c-a848-76f2613f2ae7">
 
@@ -84,7 +87,7 @@ Application Layer: Where apps Mac, iOS, iPadOS, Watch OS projects and exist and 
 ### Must Have Changes
 * OAuth + Token manager
     * This project APIs are currently sandbox level, I have opted to just use `UserDefaultsAuthenticationStoreManager` to store and manage the tokens. 
-    * In the future keychain storage manager will have be used 
+    * In the future a Keychain Storage Manager will be be used 
     * Accommodations for a future `KeychainAuthenticationStoreManager` were made with the currently existing `AuthenticationStoreManagable`
     * In production token exchange would be used to return new access tokens 
 * Integration tests for view controllers and UIViews
@@ -124,4 +127,6 @@ Application Layer: Where apps Mac, iOS, iPadOS, Watch OS projects and exist and 
     * Unify `***FeedViewModelTestsSpec` into one spec as they all seem to be doing the same thing + any other similar specs 
     * Unify the `Error` in the Services for each feature into one place + support this change in `CoreNetworking
     * Unity the testing suites and protocols for the services and models for they are very similar. i.e. a new `FeedServicable` or `ViewModeallable`. I did not do this because I think that they should remain open for now as each is bound to change in an array of directions. But, if we are adhering to interface segregation, then this might be ok
-    * Additional spec files for tests. 
+    * Additional spec files for tests.
+ 
+Thank you for your consideration.
