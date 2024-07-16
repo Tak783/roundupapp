@@ -1,0 +1,19 @@
+/* 
+  AccountsFeature.strings
+  TMBaseIOSApp
+
+  Created by TM.Dev on 15/04/2021.
+*/
+"feed" = "Accounts Feed";
+"bank-name" = "Bank Name";
+"balance" = "Balance";
+"currency" = "Currency";
+"account-number" = "Account Number";
+"sort-code" = "Sort Code";
+"date-created" = "Date Created";
+
+"accounts-feed" = "Accounts";
+"account-name" = "Account Name"; 
+"account-detail" = "Transactions for last 7 days";
+
+"week-round-up-total" = "Round Up total for current week";

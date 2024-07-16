@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "Core Layer">
+      <FileRef
+         location = "group:Core Layer/CoreTesting">
+      </FileRef>
+      <FileRef
+         location = "group:Core Layer/CoreFoundational">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Core Shared Components Layer">
+      <FileRef
+         location = "group:Core Shared Components Layer/CoreNetworking">
+      </FileRef>
+      <FileRef
+         location = "group:Core Shared Components Layer/MockNetworking">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Core Starling Engine Layer">
+      <FileRef
+         location = "group:Core Starling Engine/CoreStarlingEngineSharedModels">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Core Feature Layer Presentation Layer Helpers">
+      <FileRef
+         location = "group:Core Feature Layer Presentation Helpers/CoreFeatureLayerPresentationHelpers">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Feature Business Logic Layer">
+      <FileRef
+         location = "group:Feature Business Logic Layer/AccountsFeature">
+      </FileRef>
+      <FileRef
+         location = "group:Feature Business Logic Layer/SavingsGoalsFeature">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Core Presentation Layer">
+      <FileRef
+         location = "group:Core Presentation/CoreUIKit">
+      </FileRef>
+      <FileRef
+         location = "group:Core Presentation/CorePresentation">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "App Presentation Layer">
+      <Group
+         location = "container:"
+         name = "iOS App">
+         <FileRef
+            location = "group:App Presentation Layer/iOS App/RoundUp/RoundUp.xcodeproj">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

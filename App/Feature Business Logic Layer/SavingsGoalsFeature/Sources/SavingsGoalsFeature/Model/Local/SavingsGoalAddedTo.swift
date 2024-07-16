@@ -1,0 +1,19 @@
+//
+//  SavingsGoalAddedTo.swift
+//  SavingsGoalsFeature
+//
+//  Created by TM.Dev on 11/06/2021.
+//
+
+public struct SavingsGoalAddedTo: Equatable {
+    let transferUid: String
+    let success: Bool
+    
+    public init(
+        savingsGoalUid: String,
+        success: Bool
+    ) {
+        self.transferUid = savingsGoalUid
+        self.success = success
+    }
+}

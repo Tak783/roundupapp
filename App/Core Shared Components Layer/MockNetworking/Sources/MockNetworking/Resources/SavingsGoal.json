@@ -1,0 +1,13 @@
+{
+  "savingsGoalUid": "77887788-7788-7788-7788-778877887788",
+  "name": "Trip to Paris",
+  "target": {
+    "currency": "GBP",
+    "minorUnits": 100000
+  },
+  "totalSaved": {
+    "currency": "GBP",
+    "minorUnits": 2000
+  },
+  "savedPercentage": 20
+}

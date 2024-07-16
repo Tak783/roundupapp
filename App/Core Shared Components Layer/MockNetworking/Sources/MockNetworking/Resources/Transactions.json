@@ -1,0 +1,892 @@
+{
+  "feedItems": [
+    {
+      "feedItemUid": "bbc20221-ebb5-4b4b-a896-9d3934c353e7",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1499
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1499
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:09:58.767Z",
+      "transactionTime": "2021-06-06T23:30:00.000Z",
+      "source": "DIRECT_DEBIT",
+      "status": "UPCOMING",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "b6c146f7-666e-4868-beed-21344b7e6e47",
+      "counterPartyName": "Society of Antiquaries aaa",
+      "counterPartySubEntityUid": "7dda8396-7c7a-46d3-b5af-61a187bf00f9",
+      "reference": "Spotify",
+      "country": "GB",
+      "spendingCategory": "GENERAL",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c4fbc8-e581-45af-a800-9faa1aa41167",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1188
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1188
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.762Z",
+      "transactionTime": "2021-06-05T10:12:04.437Z",
+      "settlementTime": "2021-06-05T10:12:04.708Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "fae5e436-bd02-40e6-87b3-ca7ce9429a68",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "565236b1-5da5-4cdc-bd1b-b8dbad9b53c0",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c4dd79-a48c-4446-b2df-127b2d3dff3c",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2780
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2780
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.506Z",
+      "transactionTime": "2021-06-05T10:12:04.176Z",
+      "settlementTime": "2021-06-05T10:12:04.439Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "6650b2ee-4a00-4b69-9875-7827730d52d2",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "cde08dad-14b4-4df7-8462-7cf5a583b3d0",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c48fc6-4006-44b4-98b3-882d2001eefb",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2723
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2723
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:04.151Z",
+      "transactionTime": "2021-06-05T10:12:04.000Z",
+      "settlementTime": "2021-06-05T10:12:04.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 3973232524",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c453b4-5e85-4b89-b9f6-3eaf29615ce1",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 306
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 306
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:04.439Z",
+      "transactionTime": "2021-06-05T10:12:04.000Z",
+      "settlementTime": "2021-06-05T10:12:04.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 2337674840",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "591c8630-a9b6-4002-aeae-5f06e3cbc59f",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3689
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3689
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.651Z",
+      "transactionTime": "2021-06-05T10:12:04.000Z",
+      "settlementTime": "2021-06-05T10:12:04.607Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "e7246c6b-9e8f-40ad-97f9-9b7fbf8e95e7",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3191
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3191
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.822Z",
+      "transactionTime": "2021-06-05T10:12:04.000Z",
+      "settlementTime": "2021-06-05T10:12:04.785Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "62fa8b50-f6c1-4fe2-a288-5118a825e998",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 659
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 659
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.964Z",
+      "transactionTime": "2021-06-05T10:12:04.000Z",
+      "settlementTime": "2021-06-05T10:12:04.927Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "20fe7c64-2e52-4171-ad1c-c63f356a38a2",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2482
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2482
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:05.140Z",
+      "transactionTime": "2021-06-05T10:12:04.000Z",
+      "settlementTime": "2021-06-05T10:12:05.101Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "a10d8ffa-42ad-484d-9dfa-75af74d2490d",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3388
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3388
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:05.270Z",
+      "transactionTime": "2021-06-05T10:12:04.000Z",
+      "settlementTime": "2021-06-05T10:12:05.237Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c49ac5-eb6b-4f34-85e4-f27cdf8f6163",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3063
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3063
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.174Z",
+      "transactionTime": "2021-06-05T10:12:03.867Z",
+      "settlementTime": "2021-06-05T10:12:04.122Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "1584a83d-43e4-40f7-bc70-d83152bd11fd",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "a2801f3a-c8bf-45b0-aefe-0fc94c0880a0",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c40714-eac3-45cf-a91c-f52472e19464",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 168
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 168
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:03.423Z",
+      "transactionTime": "2021-06-05T10:12:03.046Z",
+      "settlementTime": "2021-06-05T10:12:03.315Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "f9d2eecb-eb2f-4aa9-beb2-c9e08920ebac",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "feea524f-2af2-41d0-b083-3189c998c4e5",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c43ac0-66c6-46c9-ab7f-be49e29a12f9",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1106
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1106
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:03.826Z",
+      "transactionTime": "2021-06-05T10:12:03.000Z",
+      "settlementTime": "2021-06-05T10:12:03.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 9893252688",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "da4d19af-9ad6-4e16-b068-9a8f9f0db639",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 792
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 792
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.109Z",
+      "transactionTime": "2021-06-05T10:12:03.000Z",
+      "settlementTime": "2021-06-05T10:12:04.071Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "60df1a44-5097-4791-bd98-ab7e9c0921de",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1402
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1402
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.161Z",
+      "transactionTime": "2021-06-05T10:12:03.000Z",
+      "settlementTime": "2021-06-05T10:12:04.124Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "2b3e2de9-a711-4341-a884-18596a71201d",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2786
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2786
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:04.545Z",
+      "transactionTime": "2021-06-05T10:12:03.000Z",
+      "settlementTime": "2021-06-05T10:12:04.507Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c47d31-290d-4744-87f8-c1bc6c4f37e6",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2133
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2133
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:02.988Z",
+      "transactionTime": "2021-06-05T10:12:02.648Z",
+      "settlementTime": "2021-06-05T10:12:02.920Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "30746017-ba1a-42fe-8829-bacd17645bf8",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "6b8a8897-d8db-4ba0-9267-66d82af12053",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c4e49d-eb3a-4d27-af01-719509216ca9",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2638
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2638
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:02.948Z",
+      "transactionTime": "2021-06-05T10:12:02.603Z",
+      "settlementTime": "2021-06-05T10:12:02.884Z",
+      "source": "FASTER_PAYMENTS_OUT",
+      "status": "SETTLED",
+      "counterPartyType": "PAYEE",
+      "counterPartyUid": "38c77b85-450a-4d81-871b-5579c71aca55",
+      "counterPartyName": "Mickey Mouse",
+      "counterPartySubEntityUid": "4829b5ad-631f-474f-bdd5-2bee822cd0da",
+      "counterPartySubEntityName": "UK account",
+      "counterPartySubEntityIdentifier": "204514",
+      "counterPartySubEntitySubIdentifier": "00000825",
+      "reference": "External Payment",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c4e32a-c675-411e-9d8a-56da1e3d3892",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 200000
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:02.334Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:02.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 3702435699",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c45884-0532-4a78-8aa4-f1f7d281cf81",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1089
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1089
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:02.560Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:02.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 2797076458",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c43f9d-fbed-4a5a-897d-9cf347d863a9",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 3602
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 3602
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:02.565Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:02.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 3523438412",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c44890-0be7-432c-9174-05cae2b47c68",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 669
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 669
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:02.922Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:02.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 0447289381",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "0d0e08e9-3702-439b-9068-d85827fe4e1f",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 188
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 188
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:03.145Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:03.111Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "043989d9-c442-4e57-a0de-c7983be66149",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 2102
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 2102
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:03.476Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:03.439Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "dc530c6f-c747-4cc1-b916-5d21a3aa46fa",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1431
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1431
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:03.570Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:03.532Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "bbf105be-f197-4718-8172-3ec6e8a690d1",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1301
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1301
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:03.612Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:03.581Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "52afaef3-5d7f-4e09-9a11-f2400fd58a3c",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1780
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1780
+      },
+      "direction": "OUT",
+      "updatedAt": "2021-06-05T10:12:03.722Z",
+      "transactionTime": "2021-06-05T10:12:02.000Z",
+      "settlementTime": "2021-06-05T10:12:03.684Z",
+      "source": "MASTER_CARD",
+      "sourceSubType": "CHIP_AND_PIN",
+      "status": "SETTLED",
+      "transactingApplicationUserUid": "6956f56c-c295-4638-9120-14e809c10b74",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "c5ca0333-42ba-4728-923e-51fa3db96bb3",
+      "counterPartyName": "Atm",
+      "counterPartySubEntityUid": "17abfe34-9e69-49ca-9394-da7ed2587705",
+      "reference": "THEATRE-DELI          ",
+      "country": "GB",
+      "spendingCategory": "GROCERIES",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c4778b-1e4f-478c-8b20-9900c4136ada",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 50000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 50000
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:12:02.093Z",
+      "transactionTime": "2021-06-05T10:12:01.000Z",
+      "settlementTime": "2021-06-05T10:12:01.000Z",
+      "source": "FASTER_PAYMENTS_IN",
+      "status": "SETTLED",
+      "counterPartyType": "SENDER",
+      "counterPartyName": "Faster payment",
+      "counterPartySubEntityName": "",
+      "counterPartySubEntityIdentifier": "600522",
+      "counterPartySubEntitySubIdentifier": "20025033",
+      "reference": "Ref: 5866058823",
+      "country": "GB",
+      "spendingCategory": "INCOME",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8c3a5ab-2cb6-4206-b76a-631dcfb5c2f2",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 1000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 1000
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:15:50.832Z",
+      "transactionTime": "2021-06-05T10:11:29.128Z",
+      "settlementTime": "2021-06-05T10:11:29.301Z",
+      "source": "DIRECT_CREDIT",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "bfcb631d-b10c-4a3b-82ed-fae6247c543a",
+      "counterPartyName": "Yepjbpwjrptpgpshto",
+      "counterPartySubEntityUid": "2aa99444-7b3f-4ef4-a0f8-412aee04d110",
+      "reference": "Insurance",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8bf7d9f-f41a-48df-93d4-7d6a12774b72",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 100000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 100000
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:11:12.418Z",
+      "transactionTime": "2021-06-05T10:07:51.164Z",
+      "settlementTime": "2021-06-05T10:07:51.370Z",
+      "source": "DIRECT_CREDIT",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "400af97d-a926-4492-9466-3928ca6fd952",
+      "counterPartyName": "Sopzzieksaiskilxvy",
+      "counterPartySubEntityUid": "55aebaa9-3474-4bc0-8b5f-485b895bae71",
+      "reference": "Dividends",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    },
+    {
+      "feedItemUid": "b8bffaa9-2a1e-4b58-bba9-834e7571d464",
+      "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+      "amount": {
+        "currency": "GBP",
+        "minorUnits": 10000
+      },
+      "sourceAmount": {
+        "currency": "GBP",
+        "minorUnits": 10000
+      },
+      "direction": "IN",
+      "updatedAt": "2021-06-05T10:11:12.432Z",
+      "transactionTime": "2021-06-05T10:07:14.638Z",
+      "settlementTime": "2021-06-05T10:07:15.277Z",
+      "source": "DIRECT_CREDIT",
+      "status": "SETTLED",
+      "counterPartyType": "MERCHANT",
+      "counterPartyUid": "49fd86c2-35d6-4763-823d-c3a1fc3f825a",
+      "counterPartyName": "Wosctkyggheapafhqt",
+      "counterPartySubEntityUid": "5858be0c-169a-4f6c-811f-32cc9faa629d",
+      "reference": "Money",
+      "country": "GB",
+      "spendingCategory": "PAYMENTS",
+      "hasAttachment": false,
+      "hasReceipt": false
+    }
+  ]
+}

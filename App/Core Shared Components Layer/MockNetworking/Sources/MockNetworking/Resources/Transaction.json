@@ -1,0 +1,26 @@
+{
+  "feedItemUid": "bbc20221-ebb5-4b4b-a896-9d3934c353e7",
+  "categoryUid": "4a59d2aa-f75a-4215-8bce-fb997f4ba21b",
+  "amount": {
+    "currency": "GBP",
+    "minorUnits": 1499
+  },
+  "sourceAmount": {
+    "currency": "GBP",
+    "minorUnits": 1499
+  },
+  "direction": "OUT",
+  "updatedAt": "2021-06-05T10:09:58.767Z",
+  "transactionTime": "2021-06-06T23:30:00.000Z",
+  "source": "DIRECT_DEBIT",
+  "status": "UPCOMING",
+  "counterPartyType": "MERCHANT",
+  "counterPartyUid": "b6c146f7-666e-4868-beed-21344b7e6e47",
+  "counterPartyName": "Society of Antiquaries aaa",
+  "counterPartySubEntityUid": "7dda8396-7c7a-46d3-b5af-61a187bf00f9",
+  "reference": "Spotify",
+  "country": "GB",
+  "spendingCategory": "GENERAL",
+  "hasAttachment": false,
+  "hasReceipt": false
+}

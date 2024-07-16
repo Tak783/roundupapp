@@ -1,0 +1,12 @@
+/*
+ SavingsGoals.strings
+ LiteBankingClientApp
+
+  Created by TM.Dev on 07/06/2021.
+*/
+
+"savings-goals-feed" = "Savings Goals";
+"savings-goals-feed-select" = "Select goal to save to";
+"target" = "Target";
+"saved" = "Saved";
+"savedPercentage" = "Saved Percenatage";
