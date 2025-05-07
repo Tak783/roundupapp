@@ -16,9 +16,11 @@ public final class TransactionsFeedViewModel {
     public var onFeedLoadError: Observer<String?>?
     public var onLoadingStateChange: Observer<Bool>?
     public var onFeedLoadSuccess: Observer<Amountable>?
-    
-    public private (set) var account: Account
-    public private (set) var transactionFeedItemViewModels = [TransactionFeedItemViewModel]()
+    public var onFilteredTransactionsUpdate: Observer<Void>?
+
+    public private(set) var account: Account
+    public private(set) var transactionFeedItemViewModels = [TransactionFeedItemViewModel]()
+    public private(set) var allTransactionFeedItemViewModels = [TransactionFeedItemViewModel]()
     
     private weak var coordinator: AccountsSavingsCoordinatorable?
     
@@ -37,12 +39,8 @@ public final class TransactionsFeedViewModel {
 
 // MARK: - TransactionsFeedViewModellable
 extension TransactionsFeedViewModel: TransactionsFeedViewModellable {
-    public func reloadTransactions(
-        minTransactionTimestamp: Date,
-        maxTransactionTimestamp: Date
-    ) {
+    public func reloadTransactions(minTransactionTimestamp: Date, maxTransactionTimestamp: Date) {
         onLoadingStateChange?(true)
-        
         transactionsFeedService.loadTransactions(
             forAccountUID: account.accountUid,
             categoryUID: account.defaultCategory,
@@ -75,22 +73,40 @@ extension TransactionsFeedViewModel: TransactionsFeedViewModellable {
             withAccount: account
         )
     }
+    
+    public func filterTransactions(with query: String) {
+           guard !query.isEmpty else {
+               transactionFeedItemViewModels = allTransactionFeedItemViewModels
+               onFilteredTransactionsUpdate?(())
+               return
+           }
+
+           let lowercasedQuery = query.lowercased()
+
+           transactionFeedItemViewModels = allTransactionFeedItemViewModels.filter {
+               $0.id.lowercased().contains(lowercasedQuery)
+               || $0.reference.lowercased().contains(lowercasedQuery)
+               || $0.amount.lowercased().contains(lowercasedQuery)
+               || $0.date.lowercased().contains(lowercasedQuery)
+           }
+
+           onFilteredTransactionsUpdate?(())
+       }
+
 }
 
 // MARK: - Factory Helper Methods
 extension TransactionsFeedViewModel {
-    private func didSuccessfullyFetchTransactions(
-        _ transactions: [Transaction]
-    ) {
-        let updatedRoundUpTotal = RoundupCalculator.calculateRoundUp(
-            forTransactions: transactions,
-            currency: account.currency
-        )
-        transactionFeedItemViewModels = Self.adaptAccountTransactionsToCellControllers(
-            for: transactions
-        )
-        onFeedLoadSuccess?(updatedRoundUpTotal)
-    }
+    private func didSuccessfullyFetchTransactions(_ transactions: [Transaction]) {
+          let updatedRoundUpTotal = RoundupCalculator.calculateRoundUp(
+              forTransactions: transactions,
+              currency: account.currency
+          )
+          let vms = Self.adaptAccountTransactionsToCellControllers(for: transactions)
+          allTransactionFeedItemViewModels = vms
+          transactionFeedItemViewModels = vms
+          onFeedLoadSuccess?(updatedRoundUpTotal)
+      }
 }
 
 // MARK: - Factory Helper Methods

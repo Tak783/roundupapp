@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7RY-yp-M48">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uza-K6-blc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,8 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="jcg-9I-1YT">
+                                <rect key="frame" x="0.0" y="48" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Uza-K6-blc" id="Rqi-hz-IfG"/>
+                                </connections>
+                            </searchBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BBU-bg-SbS">
-                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <rect key="frame" x="0.0" y="104" width="414" height="792"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <view key="tableHeaderView" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="ymK-AC-wKz" customClass="AccountDetailHeaderView" customModule="RoundUp" customModuleProvider="target">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="75"/>
@@ -48,7 +55,7 @@
                                 </connections>
                             </button>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LQa-Q5-U7C" userLabel="Error View">
-                                <rect key="frame" x="0.0" y="92" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="104" width="414" height="44"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ua2-fQ-EcF">
                                         <rect key="frame" x="0.0" y="11.5" width="414" height="21"/>
@@ -70,15 +77,18 @@
                         <viewLayoutGuide key="safeArea" id="0I4-i1-YE3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="jcg-9I-1YT" firstAttribute="top" secondItem="0I4-i1-YE3" secondAttribute="top" id="6LY-TX-GAg"/>
                             <constraint firstItem="LQa-Q5-U7C" firstAttribute="trailing" secondItem="NBW-0Y-76s" secondAttribute="trailing" id="BpI-SI-h5e"/>
-                            <constraint firstItem="LQa-Q5-U7C" firstAttribute="top" secondItem="0I4-i1-YE3" secondAttribute="top" id="Zzq-mT-FLb"/>
+                            <constraint firstItem="LQa-Q5-U7C" firstAttribute="top" secondItem="jcg-9I-1YT" secondAttribute="bottom" id="Zzq-mT-FLb"/>
                             <constraint firstAttribute="bottom" secondItem="BBU-bg-SbS" secondAttribute="bottom" id="ak7-7O-bEa"/>
                             <constraint firstItem="0I4-i1-YE3" firstAttribute="bottom" secondItem="6Bf-hQ-s6v" secondAttribute="bottom" constant="8" id="ejY-3D-Nlp"/>
-                            <constraint firstItem="BBU-bg-SbS" firstAttribute="top" secondItem="0I4-i1-YE3" secondAttribute="top" id="f1t-wl-37D"/>
+                            <constraint firstItem="BBU-bg-SbS" firstAttribute="top" secondItem="jcg-9I-1YT" secondAttribute="bottom" id="f1t-wl-37D"/>
                             <constraint firstItem="BBU-bg-SbS" firstAttribute="leading" secondItem="NBW-0Y-76s" secondAttribute="leading" id="fcZ-dx-Emt"/>
                             <constraint firstItem="BBU-bg-SbS" firstAttribute="trailing" secondItem="NBW-0Y-76s" secondAttribute="trailing" id="hl8-1Q-GgH"/>
                             <constraint firstItem="6Bf-hQ-s6v" firstAttribute="centerX" secondItem="0I4-i1-YE3" secondAttribute="centerX" id="lqv-ho-cGb"/>
+                            <constraint firstItem="jcg-9I-1YT" firstAttribute="leading" secondItem="0I4-i1-YE3" secondAttribute="leading" id="mMV-Fc-1V7"/>
                             <constraint firstItem="LQa-Q5-U7C" firstAttribute="leading" secondItem="NBW-0Y-76s" secondAttribute="leading" id="rIi-mg-G4s"/>
+                            <constraint firstItem="0I4-i1-YE3" firstAttribute="trailing" secondItem="jcg-9I-1YT" secondAttribute="trailing" id="vj1-y5-jNO"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="fbz-fy-bIH">
@@ -97,6 +107,7 @@
                         <outlet property="accountDetailView" destination="ymK-AC-wKz" id="KYm-de-7wO"/>
                         <outlet property="errorView" destination="LQa-Q5-U7C" id="s78-Cf-LGr"/>
                         <outlet property="saveRoundUpButton" destination="6Bf-hQ-s6v" id="4DG-OE-HJV"/>
+                        <outlet property="searchBar" destination="jcg-9I-1YT" id="HIO-Il-WLw"/>
                         <outlet property="tableView" destination="BBU-bg-SbS" id="Fm1-ZZ-cju"/>
                     </connections>
                 </viewController>
@@ -104,34 +115,16 @@
             </objects>
             <point key="canvasLocation" x="2911.594202898551" y="104.46428571428571"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Poo-3Q-FKg">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7RY-yp-M48" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RQl-EX-BVN">
-                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Uza-K6-blc" kind="relationship" relationship="rootViewController" id="TnA-aX-Cqh"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cfE-e9-3aF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2001.449275362319" y="104.46428571428571"/>
-        </scene>
     </scenes>
     <resources>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

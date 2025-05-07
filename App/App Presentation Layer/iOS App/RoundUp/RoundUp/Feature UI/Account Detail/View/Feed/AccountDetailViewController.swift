@@ -19,6 +19,7 @@ final class AccountDetailViewController: UIViewController, Storyboarded {
     @IBOutlet private var accountDetailView: AccountDetailHeaderView!
     @IBOutlet private var errorView: UIView!
     @IBOutlet private var saveRoundUpButton: UIButton!
+    @IBOutlet private var searchBar: UISearchBar!
     @IBOutlet private var tableView: UITableView! {
         didSet {
             tableView.accessibilityIdentifier = "transactions-feed-table"
@@ -132,6 +133,12 @@ extension AccountDetailViewController {
                 self.feedViewModel?.didAddToSavingsGoal()
                 self.loadTransactionsForLastSevenDays()
                 self.reloadSaveRoundUpButton()
+            }
+        }
+        
+        feedViewModel?.onFilteredTransactionsUpdate = { [weak self] _ in
+            DispatchQueue.performOnMainThread {
+                self?.tableView.reloadData()
             }
         }
     }
@@ -299,6 +306,13 @@ extension AccountDetailViewController: UITableViewDelegate {
         viewForFooterInSection section: Int
     ) -> UIView? {
         .init()
+    }
+}
+
+// MARK: - UISearchBarDelegate
+extension AccountDetailViewController: UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        feedViewModel?.filterTransactions(with: searchText)
     }
 }
 

@@ -15,6 +15,7 @@ public protocol TransactionsFeedViewModellable: AnyObject {
     var onLoadingStateChange: Observer<Bool>? { get set }
     var onFeedLoadError: Observer<String?>? { get set }
     var onFeedLoadSuccess: Observer<Amountable>? { get set }
+    var onFilteredTransactionsUpdate: Observer<Void>? { get set }
 
     var transactionsFeedService: TransactionsFeedServiceable { get set }
     var transactionFeedItemViewModels: [TransactionFeedItemViewModel] { get }
@@ -26,4 +27,5 @@ public protocol TransactionsFeedViewModellable: AnyObject {
     func didAddToSavingsGoal()
     func didRequestToSelectSavingsGoal()
     func didRequestToNavigateToSavingsGoalsFeed()
+    func filterTransactions(with query: String)
 }
