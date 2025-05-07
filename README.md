@@ -1,5 +1,5 @@
 # Round Up
-Round up app for Starling Engine
+App for rounding up spend and placing into into savings goals. Uses Starling banks API.
 
 ## Preface
 1. The project uses a highly modular approach using platform-agnostic components
@@ -149,5 +149,3 @@ Application Layer: Where apps Mac, iOS, iPadOS, Watch OS projects and exist and 
     * Unify the `Error` in the Services for each feature into one place + support this change in `CoreNetworking
     * Unity the testing suites and protocols for the services and models for they are very similar. i.e. a new `FeedServicable` or `ViewModeallable`. I did not do this because I think that they should remain open for now as each is bound to change in an array of directions. But, if we are adhering to interface segregation, then this might be ok
     * Additional spec files for tests.
- 
-Thank you for your consideration.
