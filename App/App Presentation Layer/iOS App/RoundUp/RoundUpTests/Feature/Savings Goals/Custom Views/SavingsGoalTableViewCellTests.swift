@@ -42,19 +42,19 @@ extension SavingsGoalTableViewCellTests {
 // MARK: - Domain Specific Language Variables
 extension SavingsGoalTableViewCell {
     var nameLabel: UILabel? {
-        findChildView(byAccessibilityIdentifier: "name-label") as? UILabel
+        findChildView(byAccessibilityIdentifier: "name_label") as? UILabel
     }
 
     var targetLabel: UILabel? {
-        findChildView(byAccessibilityIdentifier: "target-label") as? UILabel
+        findChildView(byAccessibilityIdentifier: "target_label") as? UILabel
     }
 
     var totalSavedLabel: UILabel? {
-        findChildView(byAccessibilityIdentifier: "total-saved-label") as? UILabel
+        findChildView(byAccessibilityIdentifier: "total_saved_label") as? UILabel
     }
     
     var savedPercentageLabel: UILabel? {
-        findChildView(byAccessibilityIdentifier: "saved-percentage-label") as? UILabel
+        findChildView(byAccessibilityIdentifier: "saved_percentage_label") as? UILabel
     }
 }
 

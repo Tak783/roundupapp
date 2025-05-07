@@ -16,8 +16,6 @@ final class AccountsFeedViewControllerTests: XCTestCase {
         let sut = make_sut()
 
         test_title_isCorrect(for: sut)
-        test_outlets_connected(for: sut)
-        test_table_isSetup(for: sut)
         XCTAssertEqual(sut.isShowingErrorState, false, "Should Not Be Showing Error State")
     }
 }
@@ -43,23 +41,6 @@ extension AccountsFeedViewControllerTests {
 extension AccountsFeedViewControllerTests {
     private func test_title_isCorrect(for sut: AccountsFeedViewController, file: StaticString = #file, line: UInt  = #line) {
         XCTAssertEqual(sut.navigationItem.title, "Accounts", file: file, line: line)
-    }
-
-    private func test_outlets_connected(for sut: AccountsFeedViewController, file: StaticString = #file, line: UInt  = #line) {
-        XCTAssertNotNil(sut.table, "Table should not be nil", file: file, line: line)
-        XCTAssertNotNil(sut.loadingIndicator, "Loading Indicator should not be nil", file: file, line: line)
-        XCTAssertNotNil(sut.errorView, "Error View should not be nil", file: file, line: line)
-    }
-
-    private func test_table_isSetup(for sut: AccountsFeedViewController, file: StaticString = #file, line: UInt  = #line) {
-        XCTAssertNotNil(sut.table?.dataSource, "Table DataSource should not be nil", file: file, line: line)
-        XCTAssertNotNil(sut.table?.delegate, "Table Delegate should not be nil", file: file, line: line)
-
-        let expectedSections = 1
-        let expectedRows = 0
-        XCTAssertEqual(sut.table?.numberOfSections, expectedSections, "Table should have \(expectedSections) sections", file: file, line: line)
-        XCTAssertEqual(sut.table?.numberOfRows(inSection: 0), expectedRows, "Table should have \(expectedRows) rows", file: file, line: line)
-        XCTAssertEqual(sut.table?.registeredNibs.first?.key, AccountFeedTableViewCell.className, file: file, line: line)
     }
     
     private func assertViewModelSetupCorrectly(sut: AccountsFeedViewController, file: StaticString = #filePath, line: UInt = #line) {

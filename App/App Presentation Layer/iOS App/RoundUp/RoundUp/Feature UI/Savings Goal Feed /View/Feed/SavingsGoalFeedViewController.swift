@@ -30,7 +30,7 @@ final class SavingsGoalFeedViewController: UIViewController, Storyboarded {
     @IBOutlet private var errorView: UIView!
     @IBOutlet private var tableView: UITableView! {
         didSet {
-            tableView.accessibilityIdentifier = "savings-goals-feed-table"
+            tableView.accessibilityIdentifier = "savings_goals_feed_table"
         }
     }
     

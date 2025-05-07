@@ -42,15 +42,15 @@ extension AccountFeedTableViewCellTests {
 // MARK: - Domain Specific Language Variables
 extension AccountFeedTableViewCell {
     var nameLabel: UILabel? {
-        findChildView(byAccessibilityIdentifier: "name-label") as? UILabel
+        findChildView(byAccessibilityIdentifier: "name_label") as? UILabel
     }
 
     var currencyLabel: UILabel? {
-        findChildView(byAccessibilityIdentifier: "currency-label") as? UILabel
+        findChildView(byAccessibilityIdentifier: "currency_label") as? UILabel
     }
 
     var createdAtLabel: UILabel? {
-        findChildView(byAccessibilityIdentifier: "created-at-label") as? UILabel
+        findChildView(byAccessibilityIdentifier: "created_at_label") as? UILabel
     }
 }
 

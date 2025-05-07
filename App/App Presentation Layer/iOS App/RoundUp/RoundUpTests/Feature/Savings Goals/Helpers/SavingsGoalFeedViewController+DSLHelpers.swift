@@ -12,7 +12,7 @@ import CoreUIKit
 // MARK: - Domain Specific Language Var's
 extension SavingsGoalFeedViewController {
     var table: UITableView? {
-        view.findChildView(byAccessibilityIdentifier: "savings-goals-feed-table") as? UITableView
+        view.findChildView(byAccessibilityIdentifier: "savings_goals_feed_table") as? UITableView
     }
     
     var loadingIndicator: UIRefreshControl? {
@@ -32,7 +32,7 @@ extension SavingsGoalFeedViewController {
     }
 
     var errorView: UIView? {
-        view.findChildView(byAccessibilityIdentifier: "error-view")
+        view.findChildView(byAccessibilityIdentifier: "error_view")
     }
 
     var isShowingErrorState: Bool {

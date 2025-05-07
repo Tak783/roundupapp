@@ -20,6 +20,10 @@ let package = Package(
         .package(
             name: "CoreFoundational",
             path: "../CoreFoundational"
+        ),
+        .package(
+            name: "CoreTesting",
+            path: "../CoreTesting"
         )
     ],
     targets: [
@@ -29,6 +33,10 @@ let package = Package(
                 .product(
                     name: "CoreFoundational",
                     package: "CoreFoundational"
+                ),
+                .product(
+                    name: "CoreTesting",
+                    package: "CoreTesting"
                 )
             ]
         ),

@@ -65,7 +65,7 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
-                                <accessibility key="accessibilityConfiguration" identifier="error-view"/>
+                                <accessibility key="accessibilityConfiguration" identifier="error_view"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="ua2-fQ-EcF" secondAttribute="trailing" id="LLz-0l-9VG"/>
                                     <constraint firstItem="ua2-fQ-EcF" firstAttribute="centerY" secondItem="LQa-Q5-U7C" secondAttribute="centerY" id="TOV-Fk-FKJ"/>
@@ -118,13 +118,13 @@
     </scenes>
     <resources>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
